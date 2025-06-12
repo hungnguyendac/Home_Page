@@ -1,9 +1,7 @@
 $color_1: #6c7275;
 $color_2: #000;
 $color_3: #fff;
-$color_4: rgba(0, 0, 0, 1);
-$color_5: rgba(108, 114, 117, 1);
-$color_6: rgba(20, 23, 24, 1);
+$color_4: #141718;
 $font-family_1: "Space Grotesk", sans-serif;
 $font-family_2: "Poppins", sans-serif;
 $font-family_3: "Inter", sans-serif;
@@ -133,10 +131,10 @@ $background-color_2: #fff;
 		font-family: $font-family_2;
 		font-size: 16px;
 		font-weight: 500;
-		color: $color_4;
+		color: $color_2;
 		line-height: 24px;
 		.dot {
-			color: $color_5;
+			color: $color_1;
 		}
 	}
 }
@@ -157,7 +155,7 @@ $background-color_2: #fff;
 			font-family: $font-family_3;
 			font-size: 14px;
 			font-weight: 400;
-			color: $color_5;
+			color: $color_1;
 			line-height: 20px;
 		}
 		&:focus {
@@ -196,7 +194,7 @@ $background-color_2: #fff;
 	font-family: $font-family_3;
 	font-size: 18px;
 	font-weight: 500;
-	color: $color_5;
+	color: $color_1;
 	letter-spacing: -0.4px;
 	line-height: 31px;
 }
@@ -315,7 +313,7 @@ $background-color_2: #fff;
 			font-family: $font-family_3;
 			font-size: 14px;
 			font-weight: 500;
-			color: $color_6;
+			color: $color_4;
 			line-height: 24px;
 		}
 	}
