@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sign Up Popup</title>
+  <link rel="stylesheet" href="/dist/style.css">
+</head>
+
+<body>
+  <section class="sign">
+    <div class="inner">
+      <div class="sign_images">
+        <a href="/dist/" aria-label="Logo link">
+          <img class="img_logo" src="/src/img/img_logo.svg" alt="Logo">
+        </a>
+        <img class="img_place" src="/src/img/image_placeholder.png" alt="Placeholder">
+      </div>
+      <div class="form_wrapper">
+        <div class="form_sign_up">
+          <h3 class="form_title">Sign up</h3>
+          <p class="form_text">Already have an account? <a class="sign_link" href="#none" data-target="sign_in">Sign
+              in</a></p>
+          <form class="from_input">
+            <input class="input" type="text" placeholder="Your name">
+            <input class="input" type="text" placeholder="Username">
+            <input class="input" type="email" placeholder="Email address">
+            <div class="password">
+              <input class="input password_input" type="password" placeholder="Password">
+              <div class="toggle_password"></div>
+            </div>
+            <div class="checkbox">
+              <input class="input" type="checkbox" id="checkbox1" name="checkbox1" value="Yes">
+              <label class="label" for="checkbox1">I agree with <span class="label_span">Privacy Policy</span> and <span
+                  class="label_span">Terms of Use</span></label><br>
+            </div>
+            <button class="btn_sign" type="button">Sign Up</button>
+          </form>
+        </div>
+      </div>
+      <div class="form_wrapper" style="display: none;">
+        <div class="form_sign_in">
+          <h3 class="form_title">Sign in</h3>
+          <p class="form_text">Don’t have an accout yet? <a class="sign_link" href="#none" data-target="sign_up">Sign
+              Up</a></p>
+          <form class="from_input">
+            <input class="input" type="text" placeholder="Your username or email address">
+            <div class="password">
+              <input class="input password_input" type="password" placeholder="Password">
+              <div class="toggle_password"></div>
+            </div>
+            <div class="checkbox">
+              <input class="input" type="checkbox" id="checkbox1" name="checkbox1" value="Yes">
+              <label class="label" for="checkbox1">
+                Remember me
+                <span class="label_span">Forgot password?</span>
+              </label>
+            </div>
+            <button class="btn_sign" type="button">Sign In</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+<script src="/src/js/jquery-3.7.1.min.js"></script>
+<script src="/src/js/sign.js"></script>
+<script src="/src/js/script.js"></script>
+</html>
